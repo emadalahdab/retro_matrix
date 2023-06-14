@@ -85,7 +85,7 @@ int main(int argc, char *argv[]) {
     int scale = 2;
     draw_logo(canvas, pos, scale, blue, white);
      rgb_matrix::Font brand_font;
-    if (!brand_font.LoadFont("./rpi-rgb-led-matrix/fonts/5x7.bdf")) {
+    if (!brand_font.LoadFont("./home/pi/rpi-rgb-led-matrix/fonts/5x7.bdf")) {
       fprintf(stderr, "Couldn't load font \n");
     
     }
