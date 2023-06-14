@@ -46,7 +46,7 @@ int RetroMatrix::draw_weather(){
   int current_selected = 0;
     
   rgb_matrix::Font font;
-  if (!font.LoadFont("/home/pi/Desktop/LED_matrix/rpi-rgb-led-matrix/fonts/4x6.bdf")) {
+  if (!font.LoadFont("/home/pi/rpi-rgb-led-matrix/fonts/4x6.bdf")) {
     fprintf(stderr, "Couldn't load font \n");
   
   }
@@ -138,11 +138,11 @@ int RetroMatrix::draw_weather(){
 
 int main(int argc, char *argv[]) {
   RGBMatrix::Options defaults;
-  defaults.hardware_mapping = "adafruit-hat";  // or e.g. "adafruit-hat"
-  defaults.rows = 64;
+  defaults.hardware_mapping = "regular";  // or e.g. "adafruit-hat"
+  defaults.rows = 32;
   defaults.cols = 64;
   defaults.chain_length = 1;
-  defaults.parallel = 1;
+  defaults.parallel = 2;
   defaults.show_refresh_rate = false;
   
   // use --led-slowdown-gpio=4
