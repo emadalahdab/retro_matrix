@@ -36,7 +36,7 @@ sudo apt-get install -y libevdev-tools
 then create a directory and inside that directory run
 
 ```console
-git clone https://github.com/zcqsntr/retro_matrix --recursive
+git clone [https://github.com/zcqsntr/retro_matrix](https://github.com/emadalahdab/retro_matrix) --recursive
 ```
 
 If the application doesn't run after you've done this try the steps below. 
