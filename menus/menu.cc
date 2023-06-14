@@ -109,8 +109,8 @@ void RetroMatrix::draw_menu(vector<Button> buttons){
 		// buttons that run programs
 		if(button_target.compare("1 PLAYER") ==0){
 		  one_p_snake();
-		}else if(button_target.compare("2 PLAYER") ==0){
-		  two_p_snake();
+		}//else if(button_target.compare("2 PLAYER") ==0){
+		  //two_p_snake();
 		}else if(button_target.compare("TETRIS") ==0){
 		  run_tetris();
 		}else if(button_target.compare("GAME OF LIFE") ==0){
