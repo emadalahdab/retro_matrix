@@ -47,7 +47,7 @@ RetroMatrix::RetroMatrix(rgb_matrix::Canvas* cv, int rows, int cols) {
 		
 	  // make buttons 
 	  Button P1_button{Point{2,2}, "1 PLAYER", true};
-	  Button P2_button{Point{25,2}, "2 PLAYER", false};
+	  //Button P2_button{Point{25,2}, "2 PLAYER", false};
 	  
 	  vector<Button> snake_buttons{P1_button, P2_button};
 	  
