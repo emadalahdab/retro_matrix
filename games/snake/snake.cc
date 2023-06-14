@@ -437,9 +437,7 @@ void RetroMatrix::one_p_snake() {
 
 
 void RetroMatrix::two_p_snake() {
-  /*
-   * Let's create a simple animation. We use the canvas to draw
-   * pixels. We wait between each step to have a slower animation.
+
    
   canvas->Fill(0, 0, 255);
 
@@ -456,7 +454,7 @@ void RetroMatrix::two_p_snake() {
                      255, 0, 0);
     usleep(1 * 1000);  // wait a little to slow down things.
   }
-  * */
+  
   
   
   
